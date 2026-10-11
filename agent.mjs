@@ -10,7 +10,7 @@
  */
 import { writeFileSync, appendFileSync, readFileSync, unlinkSync } from 'node:fs'
 
-const EVM_WALLET = '0x6536233ab0415daae98c6e66b87e3d4e20d4e3cd' // Base USDC receive-only
+const EVM_WALLET = '0x78eca3731f15B20D2d238DA8E71a4E2716E26cc2' // Base USDC receive-only
 const BASE_USDC = '0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913'
 const now = new Date().toISOString()
 
