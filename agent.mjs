@@ -193,7 +193,7 @@ async function hackathonStatus() {
 }
 
 // Solana-side USDC (second payment rail added 2026-07-05; receive-only wallet).
-const SOL_WALLET = '2qm6YKKWZUiLiHSjMxch5GXcygkLPDgKgrZLoCmFRJbQ'
+const SOL_WALLET = '4ap5UgKbg8k8fkoyffTdTU4WSth6gMmNue2YE6t3kLj3'
 async function solUsdc() {
   try {
     const r = await fetch('https://api.mainnet-beta.solana.com', {
