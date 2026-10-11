@@ -50,7 +50,7 @@ async function superteamLive() {
   } catch (e) { return { error: e.message } }
 }
 
-const SERVICE = 'https://token-intel-x402.echolonius.deno.net'
+const SERVICE = 'https://token-intel.xrpbreadcrumbs.workers.dev'
 async function serviceHealth() {
   try {
     const r = await fetch(`${SERVICE}/healthz`, { signal: AbortSignal.timeout(10000) })
